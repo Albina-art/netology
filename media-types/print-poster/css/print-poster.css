@@ -1,0 +1,9 @@
+body {
+	margin: 0;
+	color: #f1f1f1;
+	background: #000000;
+  border: 20px solid #f69c4f;
+}
+.poster {
+  width: 200px;
+}
