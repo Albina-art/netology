@@ -1,0 +1,24 @@
+@media (min-width: 769px) {
+  .products {
+    display: flex;
+    justify-content: start;
+  }
+  .product {
+    width: 32%
+    display: flex;
+    flex-direction: column;
+  }
+  .product:nth-child(3n+2) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.product__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.product__footer {
+  margin-top: auto;
+  justify-content: space-between;
+}
