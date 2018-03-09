@@ -6,11 +6,11 @@
   font-size: 1.5em;
 }
 @media (min-width: 481px) {
-  .section__header {
-    font-size: 12px;
-  }
   .post {
     font-size: 14px;
+  }
+  .section__header {
+    font-size: 12px;
   }
 }
 @media (max-width: 480px) {
