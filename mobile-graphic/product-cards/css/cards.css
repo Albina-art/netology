@@ -1,24 +1,18 @@
 @media (min-width: 769px) {
   .products {
     display: flex;
-    justify-content: start;
+    align-items: flex-start;
   }
   .product {
-    width: 32%
-    display: flex;
-    flex-direction: column;
+    width: 32%;
   }
   .product:nth-child(3n+2) {
     margin-left: auto;
     margin-right: auto;
   }
 }
-.product__body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
 .product__footer {
-  margin-top: auto;
+  display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
