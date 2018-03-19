@@ -8,7 +8,7 @@ body {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
-  
+
   background-color: #ffffff;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
 }
@@ -28,8 +28,8 @@ body {
 .section__header:after {
   content: "";
   width: 50px;
-  height: 3px; 
-  
+  height: 3px;
+
   display: inline-block;
   background-color: #ffffff;
 }
@@ -37,10 +37,10 @@ body {
 .section__description {
   display: block;
   margin-bottom: 5px;
-  
-  font-size: 1em;  
+
+  font-size: 1em;
   font-weight: 700;
-  color: #b5bce3;  
+  color: #b5bce3;
 }
 
 .post {
@@ -62,12 +62,12 @@ body {
   height: 100%;
   box-sizing: border-box;
   padding: 15px;
-  
+
   background-color: rgba(69, 87, 187, 0.7);
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  
+
   position: absolute;
   top: 0;
   left: 0;
@@ -76,14 +76,14 @@ body {
 
 .post__content:before{
   content: "";
-  box-sizing: border-box;    
+  box-sizing: border-box;
   width: calc(100% - 10px);
   height: calc(100% - 10px);
   border: 2px solid #ffffff;
-  
+
   position: absolute;
   top: 5px;
-  left: 5px;  
+  left: 5px;
 }
 
 .section__title {
@@ -103,10 +103,10 @@ body {
 
   .section__body {
     display: flex;
-    flex-wrap: wrap;    
+    flex-wrap: wrap;
     padding: 50px 30px;
   }
-    
+
   .post {
     font-size: 14px;
     width: 49%;
@@ -131,13 +131,13 @@ body {
   .section__header {
     font-size: 10px;
     text-align: center;
-  }  
-  
+  }
+
   .section__body {
     padding: 20px 15px;
   }
-  
+
   .post {
     font-size: 12px;
-  } 
+  }
 }
